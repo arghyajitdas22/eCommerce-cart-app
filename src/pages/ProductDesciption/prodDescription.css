@@ -1,0 +1,35 @@
+.desc-wrapper {
+  max-width: 950px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.desc-top {
+  display: flex;
+}
+
+.desc-heading {
+  margin-left: 25px;
+}
+
+.desc-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: #231f1e;
+}
+
+.desc-price {
+  font-size: 18px;
+  font-weight: 500;
+  color: #0e0e0e;
+}
+
+.desc-description {
+  font-size: 20px;
+  line-height: 130%;
+  font-weight: 500;
+  color: #333;
+}

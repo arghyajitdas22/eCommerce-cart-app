@@ -1,0 +1,173 @@
+.shopTitle {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+}
+.products {
+  width: 90%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-row-gap: 135px;
+}
+
+.product {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 400px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid rgb(19, 19, 19);
+  min-width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+}
+
+.addToCartBttn:hover {
+  background-color: rgb(19, 19, 19);
+  color: white;
+  cursor: pointer;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100%;
+  max-height: 626px;
+  position: relative;
+}
+
+.hero-bg-img {
+  width: 100vw;
+  max-height: 626px;
+  min-height: 500px;
+  height: 100%;
+}
+
+.hero-img {
+  position: absolute;
+}
+
+.pedestal {
+  top: 80px;
+  right: 0;
+}
+
+.watch {
+  top: 90px;
+  right: 110px;
+}
+
+.camera {
+  top: 230px;
+  right: 350px;
+}
+
+.hat {
+  top: 350px;
+  right: 470px;
+}
+
+.sneakers {
+  top: 330px;
+  right: 160px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: absolute;
+  top: 90px;
+  left: 80px;
+}
+
+.hero-heading {
+  color: #003d29;
+  font-size: 64px;
+  font-weight: 700;
+  max-width: 550px;
+}
+
+.hero-description {
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 230px;
+}
+
+.product-content {
+  font-size: 28px;
+  color: #231f1e;
+  margin-left: 105px;
+  font-weight: 600;
+  margin-top: 80px;
+}
+
+.product-img {
+  max-width: 100%;
+  max-height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  font-size: 16px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-width: 100%;
+}
+
+.product-title {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: #231f1e;
+}
+
+.product-title:hover {
+  opacity: 75%;
+}
+
+.product-price {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  color: #0e0e0e;
+}
+
+.product-price {
+  opacity: 75%;
+}
+
+.prod-img-container {
+  width: 100%;
+  min-width: 300px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
